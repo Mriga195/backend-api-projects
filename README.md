@@ -1,6 +1,6 @@
 # Backend API Projects
 
-Learning backend development with Express.js through hands-on projects.
+Learning backend development. Doing projects alongside. LETS GOO!
 
 ## Projects
 

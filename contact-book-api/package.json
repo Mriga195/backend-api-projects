@@ -1,0 +1,19 @@
+{
+  "name": "contact-book-api",
+  "version": "1.0.0",
+  "description": "A comprehensive RESTful API for managing personal and professional contacts with user authentication, advanced search capabilities, and organizational features",
+  "license": "ISC",
+  "author": "Mriganka Mahanta",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.0",
+    "nodemon": "^3.1.10",
+    "validator": "^13.15.15"
+  }
+}

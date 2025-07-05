@@ -4,7 +4,10 @@ const APIFeatures = require("./../utils/apiFeatures");
 const AppError = require("./../utils/appError");
 
 exports.getAllContacts = catchAsync(async (req, res, next) => {
-  const features = new APIFeatures(Contact.find(), req.query)
+  const features = new APIFeatures(
+    Contact.find({ userId: req.user.id }),
+    req.query
+  )
     .filter()
     .sort()
     .paginate()

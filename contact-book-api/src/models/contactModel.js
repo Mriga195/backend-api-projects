@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
 const validator = require("validator");
+const User = require("./userModel");
 
 const contactSchema = mongoose.Schema(
   {
@@ -55,6 +56,11 @@ const contactSchema = mongoose.Schema(
     isFavorite: {
       type: Boolean,
       default: false,
+    },
+    userId: {
+      type: mongoose.Schema.ObjectId,
+      ref: "User",
+      required: [true, "A contact must belong to a user"],
     },
   },
   {

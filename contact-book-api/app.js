@@ -1,6 +1,9 @@
 const express = require("express");
 const contactRouter = require("./src/routes/contactRoutes");
 const authRouter = require("./src/routes/authRoutes");
+const userRouter = require("./src/routes/userRoutes");
+const groupRouter = require("./src/routes/groupRoutes");
+
 const AppError = require("./src/utils/appError");
 
 const globalErrorHandler = require("./src/controllers/errorController");
@@ -25,7 +28,7 @@ const app = express();
 
 // app.use("/api", limiter);
 
-// app.use(express.json({ limit: "10kb" }));
+app.use(express.json({ limit: "10kb" }));
 
 // app.use(xss());
 
@@ -43,10 +46,12 @@ const app = express();
 
 app.use("/api/contacts", contactRouter);
 app.use("/api/auth", authRouter);
+app.use("/api/users", userRouter);
+app.use("/api/groups", groupRouter);
 
-// app.all("*", (req, res, next) => {
-//   next(new AppError(`The url ${req.originalUrl} is not valid`, 404));
-// });
+app.use((req, res, next) => {
+  next(new AppError(`The url ${req.originalUrl} is not valid`, 404));
+});
 
 app.use(globalErrorHandler);
 

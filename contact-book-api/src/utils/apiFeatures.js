@@ -16,7 +16,7 @@ class APIFeatures {
     });
 
     const filteredQuery = JSON.parse(queryStr);
-    this.query = this.query.find(fil);
+    this.query = this.query.find(filteredQuery);
 
     return this;
   }
@@ -45,7 +45,7 @@ class APIFeatures {
 
   limitFields() {
     if (this.queryString.fields) {
-      fields = this.queryString.fields.split(",").join(" ");
+      const fields = this.queryString.fields.split(",").join(" ");
       this.query = this.query.select(fields);
     } else {
       this.query = this.query.select("-__v");

@@ -1,0 +1,1002 @@
+[
+  {
+    "firstName": "Alice",
+    "lastName": "Williams",
+    "email": "alice.williams@email.com",
+    "phone": "+1-555-0101",
+    "company": "Tech Solutions Inc",
+    "jobTitle": "Software Engineer",
+    "address": {
+      "street": "123 Main St",
+      "city": "New York",
+      "state": "NY",
+      "zipCode": "10001",
+      "country": "USA"
+    },
+    "birthday": "1990-03-15",
+    "notes": "Met at tech conference. Interested in AI development.",
+    "tags": ["colleague", "tech", "networking"],
+    "socialMedia": {
+      "linkedin": "alice-williams-dev",
+      "twitter": "alicecodes",
+      "facebook": "alice.williams.dev"
+    },
+    "isFavorite": true,
+    "userId": "6868ab8afcbdd86f9e18c6d5"
+  },
+  {
+    "firstName": "Bob",
+    "lastName": "Martinez",
+    "email": "bob.martinez@email.com",
+    "phone": "+1-555-0102",
+    "company": "Marketing Pro",
+    "jobTitle": "Marketing Manager",
+    "address": {
+      "street": "456 Oak Ave",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zipCode": "90210",
+      "country": "USA"
+    },
+    "birthday": "1985-07-22",
+    "notes": "Great contact for marketing collaborations.",
+    "tags": ["business", "marketing", "client"],
+    "socialMedia": {
+      "linkedin": "bob-martinez-marketing",
+      "twitter": "bobmarketing",
+      "facebook": "bob.martinez.marketing"
+    },
+    "isFavorite": false,
+    "userId": "6868ab8afcbdd86f9e18c6d5"
+  },
+  {
+    "firstName": "Carol",
+    "lastName": "Johnson",
+    "email": "carol.johnson@email.com",
+    "phone": "+1-555-0103",
+    "company": "Design Studio",
+    "jobTitle": "UX Designer",
+    "address": {
+      "street": "789 Pine St",
+      "city": "Seattle",
+      "state": "WA",
+      "zipCode": "98101",
+      "country": "USA"
+    },
+    "birthday": "1992-11-08",
+    "notes": "Talented designer, potential collaboration partner.",
+    "tags": ["designer", "creative", "freelancer"],
+    "socialMedia": {
+      "linkedin": "carol-johnson-ux",
+      "twitter": "caroldesigns",
+      "facebook": "carol.johnson.design"
+    },
+    "isFavorite": true,
+    "userId": "6868ab8afcbdd86f9e18c6d5"
+  },
+  {
+    "firstName": "David",
+    "lastName": "Chen",
+    "email": "david.chen@email.com",
+    "phone": "+1-555-0104",
+    "company": "Finance Corp",
+    "jobTitle": "Financial Analyst",
+    "address": {
+      "street": "321 Elm St",
+      "city": "Chicago",
+      "state": "IL",
+      "zipCode": "60601",
+      "country": "USA"
+    },
+    "birthday": "1988-05-12",
+    "notes": "Financial advisor, helpful for investment decisions.",
+    "tags": ["finance", "advisor", "professional"],
+    "socialMedia": {
+      "linkedin": "david-chen-finance",
+      "twitter": "davidfinance",
+      "facebook": "david.chen.finance"
+    },
+    "isFavorite": false,
+    "userId": "6868ab8afcbdd86f9e18c6d5"
+  },
+  {
+    "firstName": "Emma",
+    "lastName": "Rodriguez",
+    "email": "emma.rodriguez@email.com",
+    "phone": "+1-555-0105",
+    "company": "Healthcare Plus",
+    "jobTitle": "Nurse",
+    "address": {
+      "street": "654 Maple Ave",
+      "city": "Miami",
+      "state": "FL",
+      "zipCode": "33101",
+      "country": "USA"
+    },
+    "birthday": "1991-09-25",
+    "notes": "Healthcare professional, very compassionate.",
+    "tags": ["healthcare", "friend", "professional"],
+    "socialMedia": {
+      "linkedin": "emma-rodriguez-rn",
+      "twitter": "emmahealth",
+      "facebook": "emma.rodriguez.nurse"
+    },
+    "isFavorite": true,
+    "userId": "6868ab8afcbdd86f9e18c6d6"
+  },
+  {
+    "firstName": "Frank",
+    "lastName": "Wilson",
+    "email": "frank.wilson@email.com",
+    "phone": "+1-555-0106",
+    "company": "Construction Co",
+    "jobTitle": "Project Manager",
+    "address": {
+      "street": "987 Cedar St",
+      "city": "Denver",
+      "state": "CO",
+      "zipCode": "80201",
+      "country": "USA"
+    },
+    "birthday": "1983-12-03",
+    "notes": "Reliable project manager, great for construction projects.",
+    "tags": ["construction", "manager", "reliable"],
+    "socialMedia": {
+      "linkedin": "frank-wilson-pm",
+      "twitter": "frankbuilds",
+      "facebook": "frank.wilson.construction"
+    },
+    "isFavorite": false,
+    "userId": "6868ab8afcbdd86f9e18c6d6"
+  },
+  {
+    "firstName": "Grace",
+    "lastName": "Lee",
+    "email": "grace.lee@email.com",
+    "phone": "+1-555-0107",
+    "company": "Education First",
+    "jobTitle": "Teacher",
+    "address": {
+      "street": "147 Birch St",
+      "city": "Boston",
+      "state": "MA",
+      "zipCode": "02101",
+      "country": "USA"
+    },
+    "birthday": "1989-04-18",
+    "notes": "Passionate educator, great with kids.",
+    "tags": ["education", "teacher", "mentor"],
+    "socialMedia": {
+      "linkedin": "grace-lee-teacher",
+      "twitter": "graceteaches",
+      "facebook": "grace.lee.education"
+    },
+    "isFavorite": true,
+    "userId": "6868ab8afcbdd86f9e18c6d6"
+  },
+  {
+    "firstName": "Henry",
+    "lastName": "Taylor",
+    "email": "henry.taylor@email.com",
+    "phone": "+1-555-0108",
+    "company": "Legal Associates",
+    "jobTitle": "Lawyer",
+    "address": {
+      "street": "258 Walnut St",
+      "city": "Philadelphia",
+      "state": "PA",
+      "zipCode": "19101",
+      "country": "USA"
+    },
+    "birthday": "1986-08-30",
+    "notes": "Corporate lawyer, helpful for legal matters.",
+    "tags": ["legal", "professional", "advisor"],
+    "socialMedia": {
+      "linkedin": "henry-taylor-law",
+      "twitter": "henrylegal",
+      "facebook": "henry.taylor.lawyer"
+    },
+    "isFavorite": false,
+    "userId": "6868ab8afcbdd86f9e18c6d6"
+  },
+  {
+    "firstName": "Isabella",
+    "lastName": "Garcia",
+    "email": "isabella.garcia@email.com",
+    "phone": "+1-555-0109",
+    "company": "Media Group",
+    "jobTitle": "Journalist",
+    "address": {
+      "street": "369 Spruce St",
+      "city": "San Francisco",
+      "state": "CA",
+      "zipCode": "94101",
+      "country": "USA"
+    },
+    "birthday": "1993-01-14",
+    "notes": "Investigative journalist, great storyteller.",
+    "tags": ["media", "journalist", "writer"],
+    "socialMedia": {
+      "linkedin": "isabella-garcia-journalist",
+      "twitter": "isabellawriter",
+      "facebook": "isabella.garcia.journalist"
+    },
+    "isFavorite": true,
+    "userId": "6868ab8afcbdd86f9e18c6d0"
+  },
+  {
+    "firstName": "Jack",
+    "lastName": "Thompson",
+    "email": "jack.thompson@email.com",
+    "phone": "+1-555-0110",
+    "company": "Restaurant Chain",
+    "jobTitle": "Chef",
+    "address": {
+      "street": "741 Ash St",
+      "city": "Portland",
+      "state": "OR",
+      "zipCode": "97201",
+      "country": "USA"
+    },
+    "birthday": "1987-06-07",
+    "notes": "Executive chef, amazing culinary skills.",
+    "tags": ["culinary", "chef", "creative"],
+    "socialMedia": {
+      "linkedin": "jack-thompson-chef",
+      "twitter": "jackchef",
+      "facebook": "jack.thompson.chef"
+    },
+    "isFavorite": false,
+    "userId": "6868ab8afcbdd86f9e18c6d0"
+  },
+  {
+    "firstName": "Kate",
+    "lastName": "Anderson",
+    "email": "kate.anderson@email.com",
+    "phone": "+1-555-0111",
+    "company": "Fitness Center",
+    "jobTitle": "Personal Trainer",
+    "address": {
+      "street": "852 Poplar St",
+      "city": "Austin",
+      "state": "TX",
+      "zipCode": "73301",
+      "country": "USA"
+    },
+    "birthday": "1994-10-21",
+    "notes": "Certified personal trainer, very motivating.",
+    "tags": ["fitness", "trainer", "health"],
+    "socialMedia": {
+      "linkedin": "kate-anderson-trainer",
+      "twitter": "katefitness",
+      "facebook": "kate.anderson.fitness"
+    },
+    "isFavorite": true,
+    "userId": "6868ab8afcbdd86f9e18c6d0"
+  },
+  {
+    "firstName": "Leo",
+    "lastName": "Martinez",
+    "email": "leo.martinez@email.com",
+    "phone": "+1-555-0112",
+    "company": "Music Studio",
+    "jobTitle": "Music Producer",
+    "address": {
+      "street": "963 Hickory St",
+      "city": "Nashville",
+      "state": "TN",
+      "zipCode": "37201",
+      "country": "USA"
+    },
+    "birthday": "1990-02-28",
+    "notes": "Talented music producer, great ear for sound.",
+    "tags": ["music", "producer", "creative"],
+    "socialMedia": {
+      "linkedin": "leo-martinez-producer",
+      "twitter": "leomusic",
+      "facebook": "leo.martinez.music"
+    },
+    "isFavorite": false,
+    "userId": "6868ab8afcbdd86f9e18c6d0"
+  },
+  {
+    "firstName": "Mia",
+    "lastName": "Davis",
+    "email": "mia.davis@email.com",
+    "phone": "+1-555-0113",
+    "company": "Photography Studio",
+    "jobTitle": "Photographer",
+    "address": {
+      "street": "159 Sycamore St",
+      "city": "Las Vegas",
+      "state": "NV",
+      "zipCode": "89101",
+      "country": "USA"
+    },
+    "birthday": "1995-07-16",
+    "notes": "Professional photographer, specializes in portraits.",
+    "tags": ["photography", "artist", "creative"],
+    "socialMedia": {
+      "linkedin": "mia-davis-photographer",
+      "twitter": "miaphotos",
+      "facebook": "mia.davis.photography"
+    },
+    "isFavorite": true,
+    "userId": "6868ab8afcbdd86f9e18c6d1"
+  },
+  {
+    "firstName": "Noah",
+    "lastName": "Wilson",
+    "email": "noah.wilson@email.com",
+    "phone": "+1-555-0114",
+    "company": "Engineering Firm",
+    "jobTitle": "Civil Engineer",
+    "address": {
+      "street": "753 Magnolia St",
+      "city": "Atlanta",
+      "state": "GA",
+      "zipCode": "30301",
+      "country": "USA"
+    },
+    "birthday": "1984-11-09",
+    "notes": "Experienced civil engineer, infrastructure specialist.",
+    "tags": ["engineering", "infrastructure", "professional"],
+    "socialMedia": {
+      "linkedin": "noah-wilson-engineer",
+      "twitter": "noahengineers",
+      "facebook": "noah.wilson.engineer"
+    },
+    "isFavorite": false,
+    "userId": "6868ab8afcbdd86f9e18c6d1"
+  },
+  {
+    "firstName": "Olivia",
+    "lastName": "Brown",
+    "email": "olivia.brown@email.com",
+    "phone": "+1-555-0115",
+    "company": "Real Estate Agency",
+    "jobTitle": "Real Estate Agent",
+    "address": {
+      "street": "486 Dogwood St",
+      "city": "Phoenix",
+      "state": "AZ",
+      "zipCode": "85001",
+      "country": "USA"
+    },
+    "birthday": "1991-05-03",
+    "notes": "Top-performing real estate agent, great market knowledge.",
+    "tags": ["real estate", "sales", "professional"],
+    "socialMedia": {
+      "linkedin": "olivia-brown-realtor",
+      "twitter": "oliviarealty",
+      "facebook": "olivia.brown.realtor"
+    },
+    "isFavorite": true,
+    "userId": "6868ab8afcbdd86f9e18c6d1"
+  },
+  {
+    "firstName": "Peter",
+    "lastName": "Jones",
+    "email": "peter.jones@email.com",
+    "phone": "+1-555-0116",
+    "company": "Consulting Group",
+    "jobTitle": "Business Consultant",
+    "address": {
+      "street": "297 Chestnut St",
+      "city": "Detroit",
+      "state": "MI",
+      "zipCode": "48201",
+      "country": "USA"
+    },
+    "birthday": "1982-09-19",
+    "notes": "Strategic business consultant, excellent problem solver.",
+    "tags": ["consulting", "business", "strategy"],
+    "socialMedia": {
+      "linkedin": "peter-jones-consultant",
+      "twitter": "peterconsults",
+      "facebook": "peter.jones.consulting"
+    },
+    "isFavorite": false,
+    "userId": "6868ab8afcbdd86f9e18c6d1"
+  },
+  {
+    "firstName": "Quinn",
+    "lastName": "Miller",
+    "email": "quinn.miller@email.com",
+    "phone": "+1-555-0117",
+    "company": "Veterinary Clinic",
+    "jobTitle": "Veterinarian",
+    "address": {
+      "street": "681 Redwood St",
+      "city": "San Diego",
+      "state": "CA",
+      "zipCode": "92101",
+      "country": "USA"
+    },
+    "birthday": "1988-12-25",
+    "notes": "Caring veterinarian, great with animals.",
+    "tags": ["veterinary", "animals", "healthcare"],
+    "socialMedia": {
+      "linkedin": "quinn-miller-vet",
+      "twitter": "quinnvet",
+      "facebook": "quinn.miller.vet"
+    },
+    "isFavorite": true,
+    "userId": "6868ab8afcbdd86f9e18c6d2"
+  },
+  {
+    "firstName": "Rachel",
+    "lastName": "Taylor",
+    "email": "rachel.taylor@email.com",
+    "phone": "+1-555-0118",
+    "company": "Accounting Firm",
+    "jobTitle": "Accountant",
+    "address": {
+      "street": "174 Willow St",
+      "city": "Minneapolis",
+      "state": "MN",
+      "zipCode": "55401",
+      "country": "USA"
+    },
+    "birthday": "1986-03-11",
+    "notes": "Certified public accountant, very detail-oriented.",
+    "tags": ["accounting", "finance", "professional"],
+    "socialMedia": {
+      "linkedin": "rachel-taylor-cpa",
+      "twitter": "rachelcpa",
+      "facebook": "rachel.taylor.accounting"
+    },
+    "isFavorite": false,
+    "userId": "6868ab8afcbdd86f9e18c6d2"
+  },
+  {
+    "firstName": "Sam",
+    "lastName": "White",
+    "email": "sam.white@email.com",
+    "phone": "+1-555-0119",
+    "company": "Tech Startup",
+    "jobTitle": "Data Scientist",
+    "address": {
+      "street": "528 Beech St",
+      "city": "Columbus",
+      "state": "OH",
+      "zipCode": "43201",
+      "country": "USA"
+    },
+    "birthday": "1992-08-06",
+    "notes": "Data scientist with machine learning expertise.",
+    "tags": ["data science", "tech", "analytics"],
+    "socialMedia": {
+      "linkedin": "sam-white-datascientist",
+      "twitter": "samdata",
+      "facebook": "sam.white.datascience"
+    },
+    "isFavorite": true,
+    "userId": "6868ab8afcbdd86f9e18c6d2"
+  },
+  {
+    "firstName": "Tina",
+    "lastName": "Green",
+    "email": "tina.green@email.com",
+    "phone": "+1-555-0120",
+    "company": "Event Planning",
+    "jobTitle": "Event Planner",
+    "address": {
+      "street": "835 Cedar Ave",
+      "city": "Salt Lake City",
+      "state": "UT",
+      "zipCode": "84101",
+      "country": "USA"
+    },
+    "birthday": "1989-01-29",
+    "notes": "Creative event planner, excellent organizational skills.",
+    "tags": ["events", "planning", "creative"],
+    "socialMedia": {
+      "linkedin": "tina-green-events",
+      "twitter": "tinaevents",
+      "facebook": "tina.green.events"
+    },
+    "isFavorite": false,
+    "userId": "6868ab8afcbdd86f9e18c6d2"
+  },
+  {
+    "firstName": "Victor",
+    "lastName": "Harris",
+    "email": "victor.harris@email.com",
+    "phone": "+1-555-0121",
+    "company": "Architecture Studio",
+    "jobTitle": "Architect",
+    "address": {
+      "street": "429 Fir St",
+      "city": "Portland",
+      "state": "ME",
+      "zipCode": "04101",
+      "country": "USA"
+    },
+    "birthday": "1985-04-14",
+    "notes": "Innovative architect, sustainable design specialist.",
+    "tags": ["architecture", "design", "sustainability"],
+    "socialMedia": {
+      "linkedin": "victor-harris-architect",
+      "twitter": "victordesigns",
+      "facebook": "victor.harris.architecture"
+    },
+    "isFavorite": true,
+    "userId": "6868ab8afcbdd86f9e18c6d3"
+  },
+  {
+    "firstName": "Wendy",
+    "lastName": "Clark",
+    "email": "wendy.clark@email.com",
+    "phone": "+1-555-0122",
+    "company": "Social Services",
+    "jobTitle": "Social Worker",
+    "address": {
+      "street": "716 Juniper St",
+      "city": "Richmond",
+      "state": "VA",
+      "zipCode": "23219",
+      "country": "USA"
+    },
+    "birthday": "1990-10-07",
+    "notes": "Dedicated social worker, passionate about helping others.",
+    "tags": ["social work", "community", "helper"],
+    "socialMedia": {
+      "linkedin": "wendy-clark-socialworker",
+      "twitter": "wendyhelps",
+      "facebook": "wendy.clark.socialwork"
+    },
+    "isFavorite": false,
+    "userId": "6868ab8afcbdd86f9e18c6d3"
+  },
+  {
+    "firstName": "Xavier",
+    "lastName": "Lopez",
+    "email": "xavier.lopez@email.com",
+    "phone": "+1-555-0123",
+    "company": "Security Firm",
+    "jobTitle": "Security Manager",
+    "address": {
+      "street": "341 Cypress St",
+      "city": "Jacksonville",
+      "state": "FL",
+      "zipCode": "32201",
+      "country": "USA"
+    },
+    "birthday": "1983-06-20",
+    "notes": "Experienced security manager, reliable and trustworthy.",
+    "tags": ["security", "management", "professional"],
+    "socialMedia": {
+      "linkedin": "xavier-lopez-security",
+      "twitter": "xaviersecurity",
+      "facebook": "xavier.lopez.security"
+    },
+    "isFavorite": true,
+    "userId": "6868ab8afcbdd86f9e18c6d3"
+  },
+  {
+    "firstName": "Yuki",
+    "lastName": "Tanaka",
+    "email": "yuki.tanaka@email.com",
+    "phone": "+1-555-0124",
+    "company": "Translation Services",
+    "jobTitle": "Translator",
+    "address": {
+      "street": "657 Palm St",
+      "city": "Honolulu",
+      "state": "HI",
+      "zipCode": "96801",
+      "country": "USA"
+    },
+    "birthday": "1994-02-12",
+    "notes": "Professional translator, fluent in multiple languages.",
+    "tags": ["translation", "languages", "communication"],
+    "socialMedia": {
+      "linkedin": "yuki-tanaka-translator",
+      "twitter": "yukitranslates",
+      "facebook": "yuki.tanaka.translator"
+    },
+    "isFavorite": false,
+    "userId": "6868ab8afcbdd86f9e18c6d3"
+  },
+  {
+    "firstName": "Zoe",
+    "lastName": "Adams",
+    "email": "zoe.adams@email.com",
+    "phone": "+1-555-0125",
+    "company": "Non-Profit Org",
+    "jobTitle": "Program Director",
+    "address": {
+      "street": "913 Olive St",
+      "city": "Memphis",
+      "state": "TN",
+      "zipCode": "38101",
+      "country": "USA"
+    },
+    "birthday": "1987-09-01",
+    "notes": "Non-profit program director, passionate about social causes.",
+    "tags": ["non-profit", "social impact", "leadership"],
+    "socialMedia": {
+      "linkedin": "zoe-adams-nonprofit",
+      "twitter": "zoeimpact",
+      "facebook": "zoe.adams.nonprofit"
+    },
+    "isFavorite": true,
+    "userId": "6868ab8afcbdd86f9e18c6d4"
+  },
+  {
+    "firstName": "Adam",
+    "lastName": "Scott",
+    "email": "adam.scott@email.com",
+    "phone": "+1-555-0126",
+    "company": "Insurance Company",
+    "jobTitle": "Insurance Agent",
+    "address": {
+      "street": "287 Laurel St",
+      "city": "Charlotte",
+      "state": "NC",
+      "zipCode": "28201",
+      "country": "USA"
+    },
+    "birthday": "1988-11-17",
+    "notes": "Experienced insurance agent, great customer service.",
+    "tags": ["insurance", "sales", "customer service"],
+    "socialMedia": {
+      "linkedin": "adam-scott-insurance",
+      "twitter": "adaminsurance",
+      "facebook": "adam.scott.insurance"
+    },
+    "isFavorite": false,
+    "userId": "6868ab8afcbdd86f9e18c6d4"
+  },
+  {
+    "firstName": "Beth",
+    "lastName": "Parker",
+    "email": "beth.parker@email.com",
+    "phone": "+1-555-0127",
+    "company": "Library System",
+    "jobTitle": "Librarian",
+    "address": {
+      "street": "594 Rosewood St",
+      "city": "Louisville",
+      "state": "KY",
+      "zipCode": "40201",
+      "country": "USA"
+    },
+    "birthday": "1991-12-04",
+    "notes": "Public librarian, loves books and helping people learn.",
+    "tags": ["library", "education", "books"],
+    "socialMedia": {
+      "linkedin": "beth-parker-librarian",
+      "twitter": "bethbooks",
+      "facebook": "beth.parker.library"
+    },
+    "isFavorite": true,
+    "userId": "6868ab8afcbdd86f9e18c6d4"
+  },
+  {
+    "firstName": "Carl",
+    "lastName": "Edwards",
+    "email": "carl.edwards@email.com",
+    "phone": "+1-555-0128",
+    "company": "Manufacturing Corp",
+    "jobTitle": "Quality Control Manager",
+    "address": {
+      "street": "768 Buttonwood St",
+      "city": "Milwaukee",
+      "state": "WI",
+      "zipCode": "53201",
+      "country": "USA"
+    },
+    "birthday": "1984-07-23",
+    "notes": "Quality control manager, very detail-oriented and thorough.",
+    "tags": ["manufacturing", "quality", "management"],
+    "socialMedia": {
+      "linkedin": "carl-edwards-qc",
+      "twitter": "carlquality",
+      "facebook": "carl.edwards.manufacturing"
+    },
+    "isFavorite": false,
+    "userId": "6868ab8afcbdd86f9e18c6d4"
+  },
+  {
+    "firstName": "Diana",
+    "lastName": "Foster",
+    "email": "diana.foster@email.com",
+    "phone": "+1-555-0129",
+    "company": "Wellness Center",
+    "jobTitle": "Therapist",
+    "address": {
+      "street": "125 Myrtle St",
+      "city": "Albuquerque",
+      "state": "NM",
+      "zipCode": "87101",
+      "country": "USA"
+    },
+    "birthday": "1989-03-08",
+    "notes": "Licensed therapist, specializes in anxiety and depression.",
+    "tags": ["therapy", "mental health", "wellness"],
+    "socialMedia": {
+      "linkedin": "diana-foster-therapist",
+      "twitter": "dianatherapy",
+      "facebook": "diana.foster.therapy"
+    },
+    "isFavorite": true,
+    "userId": "6868ab8afcbdd86f9e18c6cf"
+  },
+  {
+    "firstName": "Ethan",
+    "lastName": "Cooper",
+    "email": "ethan.cooper@email.com",
+    "phone": "+1-555-0130",
+    "company": "Retail Chain",
+    "jobTitle": "Store Manager",
+    "address": {
+      "street": "492 Hawthorn St",
+      "city": "Tucson",
+      "state": "AZ",
+      "zipCode": "85701",
+      "country": "USA"
+    },
+    "birthday": "1986-05-26",
+    "notes": "Retail store manager, great leadership skills.",
+    "tags": ["retail", "management", "leadership"],
+    "socialMedia": {
+      "linkedin": "ethan-cooper-retail",
+      "twitter": "ethanretail",
+      "facebook": "ethan.cooper.retail"
+    },
+    "isFavorite": false,
+    "userId": "6868ab8afcbdd86f9e18c6cf"
+  },
+  {
+    "firstName": "Fiona",
+    "lastName": "Bell",
+    "email": "fiona.bell@email.com",
+    "phone": "+1-555-0131",
+    "company": "Graphic Design Studio",
+    "jobTitle": "Graphic Designer",
+    "address": {
+      "street": "736 Locust St",
+      "city": "Kansas City",
+      "state": "MO",
+      "zipCode": "64101",
+      "country": "USA"
+    },
+    "birthday": "1993-08-13",
+    "notes": "Creative graphic designer, excellent with branding projects.",
+    "tags": ["design", "graphics", "creative"],
+    "socialMedia": {
+      "linkedin": "fiona-bell-designer",
+      "twitter": "fionadesigns",
+      "facebook": "fiona.bell.design"
+    },
+    "isFavorite": true,
+    "userId": "6868ab8afcbdd86f9e18c6cf"
+  },
+  {
+    "firstName": "George",
+    "lastName": "Rivera",
+    "email": "george.rivera@email.com",
+    "phone": "+1-555-0132",
+    "company": "Auto Repair Shop",
+    "jobTitle": "Mechanic",
+    "address": {
+      "street": "381 Mulberry St",
+      "city": "Fresno",
+      "state": "CA",
+      "zipCode": "93701",
+      "country": "USA"
+    },
+    "birthday": "1981-10-31",
+    "notes": "Experienced auto mechanic, honest and reliable service.",
+    "tags": ["automotive", "mechanic", "repair"],
+    "socialMedia": {
+      "linkedin": "george-rivera-mechanic",
+      "twitter": "georgeauto",
+      "facebook": "george.rivera.auto"
+    },
+    "isFavorite": false,
+    "userId": "6868ab8afcbdd86f9e18c6cf"
+  },
+  {
+    "firstName": "Hannah",
+    "lastName": "Murphy",
+    "email": "hannah.murphy@email.com",
+    "phone": "+1-555-0133",
+    "company": "Pharmacy",
+    "jobTitle": "Pharmacist",
+    "address": {
+      "street": "649 Chestnut Ave",
+      "city": "Mesa",
+      "state": "AZ",
+      "zipCode": "85201",
+      "country": "USA"
+    },
+    "birthday": "1990-01-05",
+    "notes": "Licensed pharmacist, very knowledgeable about medications.",
+    "tags": ["pharmacy", "healthcare", "professional"],
+    "socialMedia": {
+      "linkedin": "hannah-murphy-pharmacist",
+      "twitter": "hannahpharm",
+      "facebook": "hannah.murphy.pharmacy"
+    },
+    "isFavorite": true,
+    "userId": "6868ab8afcbdd86f9e18c6ce"
+  },
+  {
+    "firstName": "Ian",
+    "lastName": "Brooks",
+    "email": "ian.brooks@email.com",
+    "phone": "+1-555-0134",
+    "company": "Delivery Service",
+    "jobTitle": "Delivery Driver",
+    "address": {
+      "street": "173 Peach St",
+      "city": "Atlanta",
+      "state": "GA",
+      "zipCode": "30302",
+      "country": "USA"
+    },
+    "birthday": "1992-04-22",
+    "notes": "Reliable delivery driver, always on time.",
+    "tags": ["delivery", "transportation", "reliable"],
+    "socialMedia": {
+      "linkedin": "ian-brooks-delivery",
+      "twitter": "iandelivers",
+      "facebook": "ian.brooks.delivery"
+    },
+    "isFavorite": false,
+    "userId": "6868ab8afcbdd86f9e18c6ce"
+  },
+  {
+    "firstName": "Julia",
+    "lastName": "Ward",
+    "email": "julia.ward@email.com",
+    "phone": "+1-555-0135",
+    "company": "Fashion Boutique",
+    "jobTitle": "Fashion Designer",
+    "address": {
+      "street": "857 Cherry St",
+      "city": "New Orleans",
+      "state": "LA",
+      "zipCode": "70112",
+      "country": "USA"
+    },
+    "birthday": "1995-07-09",
+    "notes": "Emerging fashion designer, unique style and vision.",
+    "tags": ["fashion", "design", "creative"],
+    "socialMedia": {
+      "linkedin": "julia-ward-fashion",
+      "twitter": "juliafashion",
+      "facebook": "julia.ward.fashion"
+    },
+    "isFavorite": true,
+    "userId": "6868ab8afcbdd86f9e18c6ce"
+  },
+  {
+    "firstName": "Kevin",
+    "lastName": "Powell",
+    "email": "kevin.powell@email.com",
+    "phone": "+1-555-0136",
+    "company": "Sports Academy",
+    "jobTitle": "Athletic Coach",
+    "address": {
+      "street": "264 Plum St",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "zipCode": "73101",
+      "country": "USA"
+    },
+    "birthday": "1987-11-15",
+    "notes": "Experienced athletic coach, specializes in youth development.",
+    "tags": ["sports", "coaching", "youth"],
+    "socialMedia": {
+      "linkedin": "kevin-powell-coach",
+      "twitter": "kevincoaches",
+      "facebook": "kevin.powell.coach"
+    },
+    "isFavorite": false,
+    "userId": "6868ab8afcbdd86f9e18c6ce"
+  },
+  {
+    "firstName": "Luna",
+    "lastName": "Kim",
+    "email": "luna.kim@email.com",
+    "phone": "+1-555-0137",
+    "company": "Art Gallery",
+    "jobTitle": "Art Curator",
+    "address": {
+      "street": "518 Grape St",
+      "city": "San Antonio",
+      "state": "TX",
+      "zipCode": "78201",
+      "country": "USA"
+    },
+    "birthday": "1991-06-18",
+    "notes": "Art curator with excellent eye for contemporary works.",
+    "tags": ["art", "curator", "culture"],
+    "socialMedia": {
+      "linkedin": "luna-kim-curator",
+      "twitter": "lunaart",
+      "facebook": "luna.kim.art"
+    },
+    "isFavorite": true,
+    "userId": "6868ab8afcbdd86f9e18c6cd"
+  },
+  {
+    "firstName": "Marcus",
+    "lastName": "Reed",
+    "email": "marcus.reed@email.com",
+    "phone": "+1-555-0138",
+    "company": "Investment Firm",
+    "jobTitle": "Investment Advisor",
+    "address": {
+      "street": "795 Pineapple St",
+      "city": "Virginia Beach",
+      "state": "VA",
+      "zipCode": "23451",
+      "country": "USA"
+    },
+    "birthday": "1983-09-02",
+    "notes": "Investment advisor with strong track record in portfolio management.",
+    "tags": ["investment", "finance", "advisor"],
+    "socialMedia": {
+      "linkedin": "marcus-reed-investments",
+      "twitter": "marcusinvests",
+      "facebook": "marcus.reed.investments"
+    },
+    "isFavorite": false,
+    "userId": "6868ab8afcbdd86f9e18c6cd"
+  },
+  {
+    "firstName": "Nina",
+    "lastName": "Hughes",
+    "email": "nina.hughes@email.com",
+    "phone": "+1-555-0139",
+    "company": "Catering Company",
+    "jobTitle": "Event Caterer",
+    "address": {
+      "street": "431 Strawberry St",
+      "city": "Raleigh",
+      "state": "NC",
+      "zipCode": "27601",
+      "country": "USA"
+    },
+    "birthday": "1988-12-11",
+    "notes": "Professional caterer, specializes in corporate events.",
+    "tags": ["catering", "events", "food"],
+    "socialMedia": {
+      "linkedin": "nina-hughes-catering",
+      "twitter": "ninacaters",
+      "facebook": "nina.hughes.catering"
+    },
+    "isFavorite": true,
+    "userId": "6868ab8afcbdd86f9e18c6cd"
+  },
+  {
+    "firstName": "Oscar",
+    "lastName": "Flores",
+    "email": "oscar.flores@email.com",
+    "phone": "+1-555-0140",
+    "company": "Environmental Agency",
+    "jobTitle": "Environmental Scientist",
+    "address": {
+      "street": "672 Blueberry St",
+      "city": "Sacramento",
+      "state": "CA",
+      "zipCode": "95814",
+      "country": "USA"
+    },
+    "birthday": "1985-03-27",
+    "notes": "Environmental scientist focused on climate change research.",
+    "tags": ["environment", "science", "research"],
+    "socialMedia": {
+      "linkedin": "oscar-flores-environmental",
+      "twitter": "oscarenviron",
+      "facebook": "oscar.flores.environmental"
+    },
+    "isFavorite": false,
+    "userId": "6868ab8afcbdd86f9e18c6cd"
+  }
+]

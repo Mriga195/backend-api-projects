@@ -3,63 +3,83 @@ const validator = require("validator");
 const bcrypt = require("bcryptjs");
 const crypto = require("crypto");
 
-const userSchema = mongoose.Schema({
-  firstName: {
-    type: String,
-    required: [true, "A user must have a first name"],
-  },
-  lastName: {
-    type: String,
-    required: [true, "A user must have a last name"],
-  },
-  userName: {
-    type: String,
-    required: [true, "There must be a username"],
-    unique: true,
-    minlength: [3, "username can not be less than 3 characters"],
-    maxlength: [50, "username can not be more than 50 characters"],
-  },
-  email: {
-    type: String,
-    required: [true, "A user must have an email"],
-    unique: true,
-    lowercase: true,
-    validate: [validator.isEmail, "Please provide a valid email"],
-  },
-  role: {
-    type: String,
-    enum: ["user", "admin"],
-    default: "user",
-  },
-  password: {
-    type: String,
-    required: [true, "A user must have a password"],
-    minlength: 8,
-    select: false,
-  },
-  passwordConfirm: {
-    type: String,
-    required: [true, "must provide the password"],
-    validate: {
-      validator: function (el) {
-        return el === this.password;
-      },
-      message: "Passwords do not match",
+const userSchema = mongoose.Schema(
+  {
+    firstName: {
+      type: String,
+      required: [true, "A user must have a first name"],
     },
-    select: false,
+    lastName: {
+      type: String,
+      required: [true, "A user must have a last name"],
+    },
+    userName: {
+      type: String,
+      required: [true, "There must be a username"],
+      unique: true,
+      minlength: [3, "username can not be less than 3 characters"],
+      maxlength: [50, "username can not be more than 50 characters"],
+    },
+    email: {
+      type: String,
+      required: [true, "A user must have an email"],
+      unique: true,
+      lowercase: true,
+      validate: [validator.isEmail, "Please provide a valid email"],
+    },
+    role: {
+      type: String,
+      enum: ["user", "admin"],
+      default: "user",
+    },
+    password: {
+      type: String,
+      required: [true, "A user must have a password"],
+      minlength: 8,
+      select: false,
+    },
+    passwordConfirm: {
+      type: String,
+      required: [true, "must provide the password"],
+      validate: {
+        validator: function (el) {
+          return el === this.password;
+        },
+        message: "Passwords do not match",
+      },
+      select: false,
+    },
+    createdAt: {
+      type: Date,
+      default: Date.now,
+    },
+    passwordChangedAt: Date,
+    passwordResetToken: String,
+    passwordResetTokenExpires: Date,
+    isActive: {
+      type: Boolean,
+      default: true,
+      select: false,
+    },
   },
-  createdAt: {
-    type: Date,
-    default: Date.now,
-  },
-  passwordChangedAt: Date,
-  passwordResetToken: String,
-  passwordResetTokenExpires: Date,
-  isActive: {
-    type: Boolean,
-    default: true,
-    select: false,
-  },
+  {
+    toJSON: { virtuals: true },
+    toObject: { virtuals: true },
+  }
+);
+
+userSchema.virtual("groups", {
+  ref: "Group",
+  foreignField: "userId",
+  localField: "_id",
+});
+
+userSchema.pre(/^find/, function (next) {
+  this.populate({
+    path: "groups",
+  });
+
+  next();
 });
 
 userSchema.pre("save", async function (next) {

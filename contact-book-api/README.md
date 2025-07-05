@@ -130,14 +130,6 @@ This contact management system allows users to store, organize, and efficiently 
 | DELETE | `/:id` | Delete group |
 | POST | `/:id/contacts` | Add contacts to group |
 | DELETE | `/:id/contacts/:contactId` | Remove contact from group |
-
-### Tag Routes (`/api/tags`)
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET | `/` | Get all unique tags for user |
-| GET | `/:tag/contacts` | Get contacts by specific tag |
-| PUT | `/contacts/:id/tags` | Update tags for a contact |
-
 ## 🔒 Security Features
 
 ### Password Security

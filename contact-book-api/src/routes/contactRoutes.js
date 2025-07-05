@@ -1,11 +1,12 @@
 const express = require("express");
+const authControllers = require("./../controllers/authControllers");
 const contactControllers = require("./../controllers/contactControllers");
 
 const router = express.Router();
 
 router
   .route("/")
-  .get(contactControllers.getAllContacts)
+  .get(authControllers.protect, contactControllers.getAllContacts)
   .post(contactControllers.createContact);
 
 router

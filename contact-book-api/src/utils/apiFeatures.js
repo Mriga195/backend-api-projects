@@ -15,7 +15,8 @@ class APIFeatures {
       return `$${val}`;
     });
 
-    this.query = this.query.find(JSON.parse(queryStr));
+    const filteredQuery = JSON.parse(queryStr);
+    this.query = this.query.find(fil);
 
     return this;
   }
